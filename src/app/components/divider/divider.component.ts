@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
   selector: 'app-divider',
-  imports: [],
   templateUrl: './divider.component.html',
-  styleUrl: './divider.component.scss'
+  styleUrl: './divider.component.scss',
+  imports: [MatListModule, MatDividerModule],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DividerComponent {
 
