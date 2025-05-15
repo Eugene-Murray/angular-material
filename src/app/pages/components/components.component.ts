@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import { AutocompleteComponent } from "../../components/autocomplete/autocomplete.component";
 
 @Component({
   selector: 'app-components',
-  imports: [],
   templateUrl: './components.component.html',
-  styleUrl: './components.component.scss'
+  styleUrl: './components.component.scss',
+  imports: [AutocompleteComponent]
 })
 export class ComponentsComponent {
 
