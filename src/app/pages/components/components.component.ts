@@ -26,12 +26,13 @@ import { SelectComponent } from "../../components/select/select.component";
 import { SidenavComponent } from "../../components/sidenav/sidenav.component";
 import { SlideToggleComponent } from "../../components/slide-toggle/slide-toggle.component";
 import { SliderComponent } from "../../components/slider/slider.component";
+import { BottomSheetComponent } from "../../components/bottom-sheet/bottom-sheet.component";
 
 @Component({
   selector: 'app-components',
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss',
-  imports: [AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckboxComponent, ChipsComponent, CoreComponent, DatepickerComponent, DialogComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, RippleComponent, SelectComponent, SidenavComponent, SlideToggleComponent, SliderComponent]
+  imports: [AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckboxComponent, ChipsComponent, CoreComponent, DatepickerComponent, DialogComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, RippleComponent, SelectComponent, SidenavComponent, SlideToggleComponent, SliderComponent, BottomSheetComponent]
 })
 export class ComponentsComponent {
 
