@@ -35,12 +35,13 @@ import { TimePickerComponent } from "../../components/time-picker/time-picker.co
 import { ToolBarComponent } from "../../components/tool-bar/tool-bar.component";
 import { TooltipComponent } from "../../components/tooltip/tooltip.component";
 import { TreeComponent } from "../../components/tree/tree.component";
+import { TabsComponent } from "../../components/tabs/tabs.component";
 
 @Component({
   selector: 'app-components',
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss',
-  imports: [AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckboxComponent, ChipsComponent, CoreComponent, DatepickerComponent, DialogComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, RippleComponent, SelectComponent, SidenavComponent, SlideToggleComponent, SliderComponent, BottomSheetComponent, SnackBarComponent, SortHeaderComponent, TableComponent, StepperComponent, TimePickerComponent, ToolBarComponent, TooltipComponent, TreeComponent]
+  imports: [AutocompleteComponent, BadgeComponent, ButtonComponent, ButtonToggleComponent, CardComponent, CheckboxComponent, ChipsComponent, CoreComponent, DatepickerComponent, DialogComponent, DividerComponent, ExpansionPanelComponent, FormFieldComponent, GridListComponent, IconComponent, InputComponent, ListComponent, MenuComponent, PaginatorComponent, ProgressBarComponent, ProgressSpinnerComponent, RadioButtonComponent, RippleComponent, SelectComponent, SidenavComponent, SlideToggleComponent, SliderComponent, BottomSheetComponent, SnackBarComponent, SortHeaderComponent, TableComponent, StepperComponent, TimePickerComponent, ToolBarComponent, TooltipComponent, TreeComponent, TabsComponent]
 })
 export class ComponentsComponent {
 
