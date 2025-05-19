@@ -1,0 +1,11 @@
+<nav [class.visible]="isVisible">
+  <ul>
+    <li *ngFor="let link of links">
+      <a href="#">{{ link }}</a>
+    </li>
+  </ul>
+</nav>
+<button (click)="isVisible = !isVisible">
+  {{ isVisible ? 'Hide Menu' : 'Show Menu' }}
+</button>
+<section *ngIf="currentRange">breakpointObserver: {{ currentRange }}</section>
