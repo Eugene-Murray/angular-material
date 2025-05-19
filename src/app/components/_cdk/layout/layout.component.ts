@@ -1,11 +1,9 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, DestroyRef, OnInit } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { NavComponent } from './nav/nav.component';
 
 @Component({
   selector: 'app-layout',
-  imports: [NavComponent],
+  imports: [],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })
